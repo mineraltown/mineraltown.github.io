@@ -6,12 +6,12 @@
 	/* 杨任东竹石体-Bold */
 	font-family: 'yrdzst';
 	font-display: swap;
-	src: url('//at.alicdn.com/t/webfont_s59sk64no9d.eot'); /* IE9*/
-	src: url('//at.alicdn.com/t/webfont_s59sk64no9d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('//at.alicdn.com/t/webfont_s59sk64no9d.woff2') format('woff2'),
-	url('//at.alicdn.com/t/webfont_s59sk64no9d.woff') format('woff'), /* chrome、firefox */
-	url('//at.alicdn.com/t/webfont_s59sk64no9d.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-	url('//at.alicdn.com/t/webfont_s59sk64no9d.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
+	src: url('//at.alicdn.com/t/webfont_94eq2p5wvun.eot'); /* IE9*/
+	src: url('//at.alicdn.com/t/webfont_94eq2p5wvun.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//at.alicdn.com/t/webfont_94eq2p5wvun.woff2') format('woff2'),
+	url('//at.alicdn.com/t/webfont_94eq2p5wvun.woff') format('woff'), /* chrome、firefox */
+	url('//at.alicdn.com/t/webfont_94eq2p5wvun.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('//at.alicdn.com/t/webfont_94eq2p5wvun.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
 }
 /* Global */
 html,body {
@@ -26,12 +26,7 @@ body {
     justify-content: flex-start;
     align-items: center;
 	color: #777777;
-	background-color: #fff;
-	background-image: url(./main-bg03-Sp.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	
+	background-color: #fff;	
 }
 p {
 	padding: 0;
@@ -46,9 +41,6 @@ a {
 	-moz-transition: color 0.25s;	/* Firefox 4 */
 	-webkit-transition: color 0.25s;	/* Safari 和 Chrome */
 	-o-transition: color 0.25s;	/* Opera */	
-}
-a:hover {
-	color: #ffa883;
 }
 img {
     width: 100%;
@@ -77,6 +69,10 @@ img {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+	background-image: url(./main_screen03.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .view {
 	width: 90%;
@@ -84,7 +80,11 @@ img {
 	text-align: center;
 	text-shadow: 2px 2px 2px #666666;
 	font-size: 1.3em;
-	font-family: 'yrdzst';
+	font-family: 'yrdzst' !important;
+	font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
 }
 .ksz {
 	color: #fff;
