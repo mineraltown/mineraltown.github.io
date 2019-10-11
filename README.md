@@ -17,9 +17,9 @@
 ## 关于
 
 > - **Email：** friends@mineraltown.net
-<br>
+> <br>
 > - **微博：** [@矿石镇](https://weibo.com/mineraltown)<br>
-![weibo](qrcode_weibo.jpg)
-<br>
+> ![weibo](qrcode_weibo.jpg)
+> <br>
 > - **微信公众号：** 矿石镇<br>
-![mp.weixin](qrcode_mp.weixin.jpg)
+> ![mp.weixin](qrcode_mp.weixin.jpg)
