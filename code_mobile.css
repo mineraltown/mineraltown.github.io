@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* My Fonts */
+@font-face {
+	/* 杨任东竹石体-Bold */
+	font-family: 'yrdzst';
+	font-display: swap;
+	src: url('//at.alicdn.com/t/webfont_s59sk64no9d.eot'); /* IE9*/
+	src: url('//at.alicdn.com/t/webfont_s59sk64no9d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//at.alicdn.com/t/webfont_s59sk64no9d.woff2') format('woff2'),
+	url('//at.alicdn.com/t/webfont_s59sk64no9d.woff') format('woff'), /* chrome、firefox */
+	url('//at.alicdn.com/t/webfont_s59sk64no9d.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('//at.alicdn.com/t/webfont_s59sk64no9d.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
+}
+/* Global */
+html,body {
+	width: 100%;
+	height: auto;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+	color: #777777;
+	background-color: #fff;
+	background-image: url(./main-bg03-Sp.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+p {
+	padding: 0;
+	margin: 0;
+	width: auto;
+	height: auto;
+}
+a {
+	color: #666666;
+	text-decoration:none;
+	transition: color 0.25s;
+	-moz-transition: color 0.25s;	/* Firefox 4 */
+	-webkit-transition: color 0.25s;	/* Safari 和 Chrome */
+	-o-transition: color 0.25s;	/* Opera */	
+}
+a:hover {
+	color: #ffa883;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+/* Alone Class */
+.title {
+	width: 100%;
+	height: 5em;
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.name {
+	text-align: center;
+	font-size: 1.5em;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.mainview {
+	width: 100%;
+	height: 15em;
+	display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.view {
+	width: 90%;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 2px 2px 2px #666666;
+	font-size: 1.3em;
+	font-family: 'yrdzst';
+}
+.ksz {
+	color: #fff;
+	font-weight: bold;
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;	/* Firefox 4 */
+	-webkit-transition: color 0.5s;	/* Safari 和 Chrome */
+	-o-transition: color 0.5s;	/* Opera */
+}
+.maintext {
+	width: 100%;
+	height: 30em;
+	background-color: #faf2e8;
+	display: flex;
+	flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.maintext_L {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+	margin-top: -1em;
+}
+.maintext_table {
+	width: 80%;
+	padding-top: 2em;
+	text-align: left;
+}
+.maintext_caption {
+	height: 3em;
+	line-height: 3em;
+	font-size: 1.2em;
+	border-bottom: solid 1px #666666;
+}
+.maintext_R {
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+	width: 45%;
+	margin-top: 2em;
+	height: auto;
+	display: flex;
+	flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact_p {
+	margin-top: 1em;
+}
+.contact_img {
+	width: 128px;
+}
+.text {
+	width: 100%;
+	height: 17em;
+	background-color: #fde3c8;
+	display: flex;
+	flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.text_template {
+	font-size: 1.3em;
+}
+.text_download {
+	margin-top: 2em;
+	width: 7em;
+	height: 3em;
+	text-align: center;
+	line-height: 3em;
+	color: #ffffff;
+	background-color: #ffa883;
+	transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;	/* Firefox 4 */
+	-webkit-transition: background-color 0.5s;	/* Safari 和 Chrome */
+	-o-transition: background-color 0.5s;	/* Opera */
+
+}
+.code {
+	width: 100%;
+	height: 2px;
+	background-color: #ffa883;
+}
+.information {
+	width: 100%;
+	height: 5em;
+	text-align: center;
+	background-color: #6fc7e1;
+	color: #faf2e8;
+	display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
