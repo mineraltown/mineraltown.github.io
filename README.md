@@ -1,6 +1,7 @@
 # Mineraltown Code
 
 - code.mineraltown.net
+
 本项目为 [**矿石镇**](https://www.mineraltown.net) 的开源项目，包含网站建设所使用的工具、模板、攻略等内容。
 
 ## 模板
@@ -17,9 +18,7 @@
 ## 关于
 
 > - **Email：** friends@mineraltown.net
-> <br>
+>  ![weibo](qrcode_weibo.jpg)
 > - **微博：** [@矿石镇](https://weibo.com/mineraltown)<br>
-> ![weibo](qrcode_weibo.jpg)
-> <br>
-> - **微信公众号：** 矿石镇<br>
-> ![mp.weixin](qrcode_mp.weixin.jpg)
+>  ![mp.weixin](qrcode_mp.weixin.jpg)<br>
+> - **微信公众号：** 矿石镇
