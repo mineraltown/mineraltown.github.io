@@ -10,7 +10,7 @@
 
 ## 攻略
 
-- [**矿石镇**]((https://github.com/mineraltown/Mineraltown-Wiki)) [html](https://wiki.mineraltown.net/mineraltown)  [pdf](https://github.com/mineraltown/Mineraltown-Wiki/files/3740453/default.pdf) 
+- [**矿石镇**](https://github.com/mineraltown/Mineraltown-Wiki) [html](https://wiki.mineraltown.net/mineraltown)  [pdf](https://github.com/mineraltown/Mineraltown-Wiki/files/3740453/default.pdf) 
 - [**重聚矿石镇**]() [html]() [pdf]()
 - [**双子村**]() [html]() [pdf]()
 - [**三个村庄的珍贵朋友**]() [html]() [pdf]()
