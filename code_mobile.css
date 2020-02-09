@@ -1,32 +1,13 @@
 @charset "utf-8";
-/* CSS Document */
 
-/* My Fonts */
-@font-face {
-	/* 杨任东竹石体-Bold */
-	font-family: 'yrdzst';
-	font-display: swap;
-	src: url('//at.alicdn.com/t/webfont_94eq2p5wvun.eot'); /* IE9*/
-	src: url('//at.alicdn.com/t/webfont_94eq2p5wvun.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	url('//at.alicdn.com/t/webfont_94eq2p5wvun.woff2') format('woff2'),
-	url('//at.alicdn.com/t/webfont_94eq2p5wvun.woff') format('woff'), /* chrome、firefox */
-	url('//at.alicdn.com/t/webfont_94eq2p5wvun.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-	url('//at.alicdn.com/t/webfont_94eq2p5wvun.svg#杨任东竹石体-Bold') format('svg'); /* iOS 4.1- */
-}
 /* Global */
 html,body {
 	width: 100%;
-	height: auto;
+	height: 100%;
     margin: 0;
-    padding: 0;
-}
-body {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: center;
+	padding: 0;
 	color: #777777;
-	background-color: #fff;	
+	font-family: 'Microsoft YaHei',sans-serif;
 }
 p {
 	padding: 0;
@@ -46,59 +27,58 @@ img {
     width: 100%;
     height: auto;
 }
+
 /* Alone Class */
+.body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	display: -webkit-flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
 .title {
 	width: 100%;
-	height: 5em;
-	display: flex;
+	height: auto;
+	min-height: 5em;
+	background-color: #ffffff;
+	display: -webkit-flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-	background-color: rgba(255, 255, 255, 0.5);
 }
-.name {
+h1 {
+	padding: 0;
+	margin: 0;
 	text-align: center;
-	font-size: 1.5em;
-	color: rgba(0, 0, 0, 0.5);
 }
-
 .mainview {
+	flex-grow:1;
 	width: 100%;
-	height: 15em;
+	height: auto;
+	min-height: 10em;
 	display: flex;
-    flex-flow: column nowrap;
+	display: -webkit-flex;
+	flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-	background-image: url(./main_screen03.jpg);
-	background-position: center;
+	background-color: #fff;	
+	background-image: url(sheep.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 .view {
 	width: 90%;
-	color: #FFFFFF;
-	text-align: center;
-	text-shadow: 2px 2px 2px #666666;
-	font-size: 1.3em;
-	font-family: 'yrdzst' !important;
-	font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-}
-.ksz {
-	color: #fff;
-	font-weight: bold;
-	transition: color 0.5s;
-	-moz-transition: color 0.5s;	/* Firefox 4 */
-	-webkit-transition: color 0.5s;	/* Safari 和 Chrome */
-	-o-transition: color 0.5s;	/* Opera */
 }
 .maintext {
 	width: 100%;
-	height: 30em;
+	height: auto;
+	min-height: 26em;
 	background-color: #faf2e8;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
@@ -108,6 +88,7 @@ img {
 	max-width: 450px;
 	height: auto;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
@@ -122,13 +103,17 @@ img {
 	height: 3em;
 	line-height: 3em;
 	font-size: 1.2em;
-	border-bottom: solid 1px #666666;
+	background-color: #e4b882;
+}
+.wiki {
+	color: #fff;
 }
 .maintext_R {
 	width: 100%;
 	max-width: 450px;
 	height: auto;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
@@ -138,6 +123,7 @@ img {
 	margin-top: 2em;
 	height: auto;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
@@ -150,9 +136,11 @@ img {
 }
 .text {
 	width: 100%;
-	height: 17em;
+	height: auto;
+	min-height: 13em;
 	background-color: #fde3c8;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
@@ -160,7 +148,7 @@ img {
 .text_template {
 	font-size: 1.3em;
 }
-.text_download {
+.text_demo {
 	margin-top: 2em;
 	width: 7em;
 	height: 3em;
@@ -181,12 +169,9 @@ img {
 }
 .information {
 	width: 100%;
-	height: 5em;
+	height: 3em;
+	line-height: 3em;
 	text-align: center;
 	background-color: #6fc7e1;
 	color: #faf2e8;
-	display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
 }
